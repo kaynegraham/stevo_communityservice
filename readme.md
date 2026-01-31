@@ -1,24 +1,87 @@
 # stevo_communityservice 🧹
-Simple, easy to use Community Service System
+Production-ready Community Service system for FiveM
 
-Easy to configure, allowing you to disable changing clothes, set locations and make new tasks. It is simple and works just as it should.
-﻿
-- :bank: ﻿﻿﻿ Supported frameworks: ESX, QBCore & Qbox
-- :speaking_head:  Locales: English, Español & Dutch
+stevo_communityservice is a configurable, event-driven community service system built for live FiveM roleplay servers.  
+It is designed to be simple to configure, framework-agnostic, and reliable in real multiplayer environments.
 
-Follow our installation guide: [Click Here](https://docs.stevoscripts.com/free-scripts/stevo_communityservice)
-﻿
-> **Dependencies:**
-> <br>
-> **[stevo_lib 1.7.4](https://github.com/stevoscriptsteam/stevo_lib/releases/tag/1.7.4)**
-> <br>
-> **[ox_lib](https://github.com/overextended/ox_lib/releases/tag/v3.24.0)**
+This repository is a fork of the original project but remains fully in sync and reflects 100% of my own implementation work, including system logic, configuration design, and framework integrations.
 
-Preview: [Click Here](https://youtu.be/h21sa0LBtBo)
-<br>
-Discord: [Click Here](https://discord.gg/stevoscripts)
-<br>
-**Check our our paid releases!**: [Click Here](https://store.stevoscripts.com/)
+---
 
-## Support us by checking out our Featured Paid Resource 
-[![FORUM](https://github.com/user-attachments/assets/64ea1a30-f5f3-40bb-9ba0-7e309ff67d90)](https://store.stevoscripts.com/package/6448032)
+## Features
+
+- Easy-to-configure community service system  
+- Optional clothing changes during service  
+- Customisable service locations and task definitions  
+- Framework-agnostic architecture  
+- Designed for real-world server moderation workflows  
+
+The system is intentionally lightweight and focused, prioritising clarity, stability, and maintainability.
+
+---
+
+## Supported Frameworks
+
+- ESX  
+- QBCore  
+- Qbox  
+
+---
+
+## Localisation
+
+- English  
+- Español  
+- Dutch  
+
+---
+
+## Technical Overview
+
+This project demonstrates:
+
+- Lua-based, event-driven architecture  
+- State management for player punishment workflows  
+- Configurable, role-based logic used by real users  
+- Multi-framework compatibility without code duplication  
+- Clean separation between configuration, core logic, and framework adapters  
+
+This system was built to solve a real operational problem and has been deployed and used in live environments.
+
+---
+
+## Dependencies
+
+- **stevo_lib (v1.7.4)**  
+  https://github.com/stevoscriptsteam/stevo_lib/releases/tag/1.7.4  
+
+- **ox_lib (v3.24.0)**  
+  https://github.com/overextended/ox_lib/releases/tag/v3.24.0  
+
+---
+
+## Installation
+
+Installation instructions are available here:  
+https://docs.stevoscripts.com/free-scripts/stevo_communityservice
+
+---
+
+## Preview
+
+https://youtu.be/h21sa0LBtBo
+
+---
+
+## Project Status
+
+This project is **archived** and may use patterns or dependencies that are outdated by current standards.
+
+It is preserved as a reference for real-world system design, production deployment, and practical problem-solving.  
+More recent projects in this profile better reflect my current approach and skill level.
+
+---
+
+## Notes
+
+This project reflects an emphasis on strong fundamentals, clean and maintainable code, and learning through building real systems.
